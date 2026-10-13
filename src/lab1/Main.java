@@ -2,7 +2,9 @@ package lab1;
 
 /**
  * Starter class for Lab Assignment 1 (Fall 2026).
- * Add a println statement with your name in the main method.
+ *
+ * The program converts a temperature from Celsius to Fahrenheit.
+ * Expected output for 25 C: 77.0
  */
 public class Main {
 
@@ -13,6 +15,6 @@ public class Main {
 
 	/** Converts degrees Celsius to degrees Fahrenheit. */
 	public static double celsiusToFahrenheit(double c) {
-		return c * 9.0 / 5.0 + 32.0;
+		return c * 5.0 / 9.0 + 32.0;
 	}
 }
